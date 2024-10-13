@@ -1,0 +1,46 @@
+.learnMore {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+
+  .title-container {
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .svg-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+
+    .svg {
+      width: 350px;
+      height: 350px;
+    }
+  }
+
+  .center-text {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+  }
+}

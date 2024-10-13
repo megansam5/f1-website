@@ -1,0 +1,116 @@
+@import "../../app.scss";
+.driver-card {
+  width: 370px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+  height: 200px;
+  background-color: #f5e4e4;
+  padding: 7px;
+  border-color: #faa7a9;
+  border-width: 3px;
+  border-radius: 5%;
+}
+.driver-card:hover {
+  transform: scale(1.02);
+}
+.headshot-image {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 7px;
+
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: transparent;
+}
+.first-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.name {
+  color: var(--dl-color-gray-500);
+  font-weight: 500;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+.surname {
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+}
+.points {
+  color: white;
+  font-weight: bold;
+  background-color: blueviolet;
+  border-radius: 8px;
+  border-color: white;
+  border-width: 2px;
+  padding: 2px;
+  background-color: red;
+}
+.race-number {
+  font-size: 12px;
+
+  background-color: transparent;
+}
+.dob {
+  font-size: 12px;
+  background-color: transparent;
+}
+.nationality {
+  color: var(--dl-color-gray-500);
+  font-size: 12px;
+
+  background-color: transparent;
+}
+.team-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.logo {
+  height: 40px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  background-color: transparent;
+}
+.blog-post-card2-text4 {
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.team-name {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+  background-color: transparent;
+}

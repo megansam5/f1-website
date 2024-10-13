@@ -1,0 +1,10 @@
+.scrollable-cards {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+
+.scrollable-cards-container {
+  display: inline-flex;
+}

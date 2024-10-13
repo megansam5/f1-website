@@ -1,0 +1,35 @@
+.keywords4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  .drs-section {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    align-items: center;
+  }
+
+  .drs-title {
+    width: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .drs-description {
+    background-color: #ffdce0; /* Pink color */
+    border-radius: 10px;
+    height: fit-content;
+    padding: 20px;
+  }
+}
