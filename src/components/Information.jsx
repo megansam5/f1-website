@@ -77,6 +77,14 @@ const driverImages = [
     code: "sargeant",
     url: "https://media.api-sports.io/formula-1/drivers/92.png",
   },
+  {
+    code: "colapinto",
+    url: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2024Drivers/colapinto"
+  },
+  {
+    code: "lawson",
+    url: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2024Drivers/lawson"
+  },
 ];
 
 const constructorImages = [
@@ -306,7 +314,7 @@ const circuitInformation = [
   {
     name: "Lusail International Circuit",
     country: "Qatar",
-    city: "Lusail",
+    city: "Al Daayen",
     date: "1st December",
     laps: 57,
     url: "https://media.api-sports.io/formula-1/circuits/30.png",
@@ -324,76 +332,5 @@ const circuitInformation = [
   },
 ];
 
-const nextRaces = [
-  {
-    season: "2024",
-    round: "7",
-    url: "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix",
-    raceName: "Emilia Romagna Grand Prix",
-    Circuit: {
-      circuitId: "imola",
-      url: "http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari",
-      circuitName: "Autodromo Enzo e Dino Ferrari",
-      Location: {
-        lat: "44.3439",
-        long: "11.7167",
-        locality: "Imola",
-        country: "Italy",
-      },
-    },
-    date: "2024-05-19",
-    time: "13:00:00Z",
-    FirstPractice: { date: "2024-05-17", time: "11:30:00Z" },
-    SecondPractice: { date: "2024-05-17", time: "15:00:00Z" },
-    ThirdPractice: { date: "2024-05-18", time: "10:30:00Z" },
-    Qualifying: { date: "2024-05-18", time: "14:00:00Z" },
-  },
-  {
-    season: "2024",
-    round: "8",
-    url: "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix",
-    raceName: "Monaco Grand Prix",
-    Circuit: {
-      circuitId: "monaco",
-      url: "http://en.wikipedia.org/wiki/Circuit_de_Monaco",
-      circuitName: "Circuit de Monaco",
-      Location: {
-        lat: "43.7347",
-        long: "7.42056",
-        locality: "Monte-Carlo",
-        country: "Monaco",
-      },
-    },
-    date: "2024-05-26",
-    time: "13:00:00Z",
-    FirstPractice: { date: "2024-05-24", time: "11:30:00Z" },
-    SecondPractice: { date: "2024-05-24", time: "15:00:00Z" },
-    ThirdPractice: { date: "2024-05-25", time: "10:30:00Z" },
-    Qualifying: { date: "2024-05-25", time: "14:00:00Z" },
-  },
-  {
-    season: "2024",
-    round: "9",
-    url: "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix",
-    raceName: "Canadian Grand Prix",
-    Circuit: {
-      circuitId: "villeneuve",
-      url: "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
-      circuitName: "Circuit Gilles Villeneuve",
-      Location: {
-        lat: "45.5",
-        long: "-73.5228",
-        locality: "Montreal",
-        country: "Canada",
-      },
-    },
-    date: "2024-06-09",
-    time: "18:00:00Z",
-    FirstPractice: { date: "2024-06-07", time: "17:30:00Z" },
-    SecondPractice: { date: "2024-06-07", time: "21:00:00Z" },
-    ThirdPractice: { date: "2024-06-08", time: "16:30:00Z" },
-    Qualifying: { date: "2024-06-08", time: "20:00:00Z" },
-  },
-];
 
-export { driverImages, constructorImages, circuitInformation, nextRaces };
+export { driverImages, constructorImages, circuitInformation };

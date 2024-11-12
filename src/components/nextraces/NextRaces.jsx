@@ -25,7 +25,6 @@ const variants = {
 const NextRaces = () => {
   const [fullSchedule, setFullSchedule] = useState([]);
   const [threeRaces, setThreeRaces] = useState([]);
-  console.log("it gets here");
 
   useEffect(function () {
     fetch("https://ergast.com/api/f1/current.json")
