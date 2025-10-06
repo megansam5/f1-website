@@ -45,7 +45,7 @@ const driverImages = [
   },
   {
     code: "bearman",
-    url: "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png.transform/2col/image.png",
+    url: "https://media.api-sports.io/formula-1/drivers/101.png",
   },
   {
     code: "hulkenberg",
@@ -79,14 +79,31 @@ const driverImages = [
   },
   {
     code: "colapinto",
-    url: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2024Drivers/colapinto"
+    url: "https://media.api-sports.io/formula-1/drivers/105.png",
   },
   {
     code: "lawson",
-    url: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2024Drivers/lawson"
+    url: "https://media.api-sports.io/formula-1/drivers/89.png",
+  },
+  {
+    code: "doohan",
+    url: "https://media.api-sports.io/formula-1/drivers/94.png",
+  },
+  {
+    code: "antonelli",
+    url: "https://media.api-sports.io/formula-1/drivers/106.png",
+  },
+  {
+    code: "bortoleto",
+    url: "https://media.api-sports.io/formula-1/drivers/106.png",
+  },
+  {
+    code: "hadjar",
+    url: "https://media.api-sports.io/formula-1/drivers/100.png",
   },
 ];
 
+// need: hadjar (lawson)
 const constructorImages = [
   {
     code: "red_bull",
@@ -331,6 +348,5 @@ const circuitInformation = [
       "https://www.formula1.com/en/racing/2024/United_Arab_Emirates.html",
   },
 ];
-
 
 export { driverImages, constructorImages, circuitInformation };

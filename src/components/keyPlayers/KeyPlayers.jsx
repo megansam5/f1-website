@@ -32,7 +32,7 @@ const KeyPlayers = () => {
   const [constructorStandings, setConstructorStandings] = useState([]);
 
   useEffect(function () {
-    fetch("https://ergast.com/api/f1/current/driverStandings.json")
+    fetch("https://api.jolpi.ca/ergast/f1/current/driverstandings.json")
       .then((res) => res.json())
       .then((data) =>
         setDriverStandings(
@@ -42,7 +42,7 @@ const KeyPlayers = () => {
   }, []);
 
   useEffect(function () {
-    fetch("https://ergast.com/api/f1/current/constructorStandings.json")
+    fetch("https://api.jolpi.ca/ergast/f1/current/constructorstandings.json")
       .then((res) => res.json())
       .then((data) =>
         setConstructorStandings(

@@ -27,7 +27,7 @@ const NextRaces = () => {
   const [threeRaces, setThreeRaces] = useState([]);
 
   useEffect(function () {
-    fetch("https://ergast.com/api/f1/current.json")
+    fetch("https://api.jolpi.ca/ergast/f1/2025/races.json")
       .then((res) => res.json())
       .then((data) => setFullSchedule(data.MRData.RaceTable.Races));
   }, []);
