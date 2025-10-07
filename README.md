@@ -6,8 +6,6 @@ This project combines live API data with advanced UI motion design to deliver an
 
 ---
 
-## 🚀 Features
-
 ### 🏁 Real-Time Formula 1 Data
 
 - Live updates for **drivers**, **teams**, and **race standings** via external F1 APIs
@@ -21,8 +19,6 @@ This project combines live API data with advanced UI motion design to deliver an
 - Animated **hero section** with sliding background text
 - Smooth **scroll-based progress bar** and **cursor-following circle** for interactive feedback
 - **Sidebar menu** for quick navigation between sections
-
-### 🧭 Intuitive Navigation
 
 - Sections covering:
   - Drivers & Teams
