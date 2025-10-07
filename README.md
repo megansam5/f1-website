@@ -20,22 +20,16 @@ This project combines live API data with advanced UI motion design to deliver an
 - Unique **parallax scroll effect** where an F1 car dives down the track as you scroll
 - Animated **hero section** with sliding background text
 - Smooth **scroll-based progress bar** and **cursor-following circle** for interactive feedback
+- **Sidebar menu** for quick navigation between sections
 
 ### 🧭 Intuitive Navigation
 
-- **Sidebar menu** for quick navigation between sections
-- Well-structured layout covering:
+- Sections covering:
   - Drivers & Teams
   - Circuits
   - Upcoming Races
   - Race Weekend Layout
   - Key Terms & F1 Basics
-
-### 💅 UI/UX Highlights
-
-- Fully responsive design
-- Modern F1-inspired aesthetic
-- Seamless transitions between sections
 
 ---
 
